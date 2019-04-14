@@ -8,6 +8,11 @@
   "author": "Jubilee Young",
   "license": "MIT",
   "private": true,
+  "jest": {
+    "transformIgnorePatterns": [
+      "<rootDir>.*(node_modules)(?!.*my-project-b.*).*$"
+    ]
+  },
   "devDependencies": {
     "lerna": "^3.13.2"
   }
