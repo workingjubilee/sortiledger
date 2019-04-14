@@ -1,0 +1,14 @@
+{
+  "name": "sortiledger",
+  "version": "0.1.0",
+  "description": "A tool for assigning scarce resources between people",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "author": "Jubilee Young",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.13.2"
+  }
+}
